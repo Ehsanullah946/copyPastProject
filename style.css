@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body{
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background-color:#40b9f0;
+
+ }
+ .container{
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+
+
+ }
+ .textarea{
+     height: 70px;
+     width: 80%;
+     margin-top: 20px;
+     border-radius: 10px;
+     padding: 5px;
+ }
+ .btn{
+    width: 80%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #63c8f7;
+    transition: all 1s;
+ }
